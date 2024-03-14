@@ -55,6 +55,10 @@ struct ContentView: View {
                 DetailView(book: book)
             }
         }
+        Image("imageTest")
+            .resizable()
+            .ignoresSafeArea()
+            .scaledToFill()
     }
     
     func deleteBooks(at offsets: IndexSet) {
