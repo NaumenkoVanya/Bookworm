@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CA5A8CC42BA237F700988658 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5A8CC32BA237F700988658 /* Book.swift */; };
+		CA5A8CC62BA2398B00988658 /* AddBookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5A8CC52BA2398B00988658 /* AddBookView.swift */; };
+		CA98FEA12B9F7DD50090D7DD /* FiftyThirdDayOfHomework.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA98FEA02B9F7DD50090D7DD /* FiftyThirdDayOfHomework.swift */; };
+		CA98FEA52BA223EB0090D7DD /* 53DayTextEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA98FEA42BA223EB0090D7DD /* 53DayTextEditor.swift */; };
 		CADB6CA12B9F7AF100D9B38D /* BookwormApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CADB6CA02B9F7AF100D9B38D /* BookwormApp.swift */; };
 		CADB6CA32B9F7AF100D9B38D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CADB6CA22B9F7AF100D9B38D /* ContentView.swift */; };
 		CADB6CA52B9F7AF200D9B38D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CADB6CA42B9F7AF200D9B38D /* Assets.xcassets */; };
@@ -14,6 +18,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CA5A8CC32BA237F700988658 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		CA5A8CC52BA2398B00988658 /* AddBookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBookView.swift; sourceTree = "<group>"; };
+		CA98FEA02B9F7DD50090D7DD /* FiftyThirdDayOfHomework.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiftyThirdDayOfHomework.swift; sourceTree = "<group>"; };
+		CA98FEA42BA223EB0090D7DD /* 53DayTextEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 53DayTextEditor.swift; sourceTree = "<group>"; };
 		CADB6C9D2B9F7AF100D9B38D /* Bookworm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bookworm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CADB6CA02B9F7AF100D9B38D /* BookwormApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookwormApp.swift; sourceTree = "<group>"; };
 		CADB6CA22B9F7AF100D9B38D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,8 +61,12 @@
 			children = (
 				CADB6CA02B9F7AF100D9B38D /* BookwormApp.swift */,
 				CADB6CA22B9F7AF100D9B38D /* ContentView.swift */,
+				CA5A8CC52BA2398B00988658 /* AddBookView.swift */,
+				CA5A8CC32BA237F700988658 /* Book.swift */,
 				CADB6CA42B9F7AF200D9B38D /* Assets.xcassets */,
 				CADB6CA62B9F7AF200D9B38D /* Preview Content */,
+				CA98FEA02B9F7DD50090D7DD /* FiftyThirdDayOfHomework.swift */,
+				CA98FEA42BA223EB0090D7DD /* 53DayTextEditor.swift */,
 			);
 			path = Bookworm;
 			sourceTree = "<group>";
@@ -137,8 +149,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA98FEA12B9F7DD50090D7DD /* FiftyThirdDayOfHomework.swift in Sources */,
+				CA5A8CC62BA2398B00988658 /* AddBookView.swift in Sources */,
 				CADB6CA32B9F7AF100D9B38D /* ContentView.swift in Sources */,
 				CADB6CA12B9F7AF100D9B38D /* BookwormApp.swift in Sources */,
+				CA5A8CC42BA237F700988658 /* Book.swift in Sources */,
+				CA98FEA52BA223EB0090D7DD /* 53DayTextEditor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +296,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -309,6 +326,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
