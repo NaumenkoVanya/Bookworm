@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CA5792382BA311B900DEA549 /* BookGif.gif in Resources */ = {isa = PBXBuildFile; fileRef = CA5792372BA311B900DEA549 /* BookGif.gif */; };
 		CA5A8CC42BA237F700988658 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5A8CC32BA237F700988658 /* Book.swift */; };
 		CA5A8CC62BA2398B00988658 /* AddBookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5A8CC52BA2398B00988658 /* AddBookView.swift */; };
 		CA98FEA12B9F7DD50090D7DD /* FiftyThirdDayOfHomework.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA98FEA02B9F7DD50090D7DD /* FiftyThirdDayOfHomework.swift */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CA5792372BA311B900DEA549 /* BookGif.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = BookGif.gif; sourceTree = "<group>"; };
 		CA5A8CC32BA237F700988658 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
 		CA5A8CC52BA2398B00988658 /* AddBookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBookView.swift; sourceTree = "<group>"; };
 		CA98FEA02B9F7DD50090D7DD /* FiftyThirdDayOfHomework.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiftyThirdDayOfHomework.swift; sourceTree = "<group>"; };
@@ -73,6 +75,7 @@
 				CAB088862BA2F69D00AB4F40 /* EmojiRatingView.swift */,
 				CAB088882BA2FEF700AB4F40 /* DetailView.swift */,
 				CADB6CA42B9F7AF200D9B38D /* Assets.xcassets */,
+				CA5792372BA311B900DEA549 /* BookGif.gif */,
 				CADB6CA62B9F7AF200D9B38D /* Preview Content */,
 				CA98FEA02B9F7DD50090D7DD /* FiftyThirdDayOfHomework.swift */,
 				CA98FEA42BA223EB0090D7DD /* 53DayTextEditor.swift */,
@@ -148,6 +151,7 @@
 			files = (
 				CADB6CA82B9F7AF200D9B38D /* Preview Assets.xcassets in Resources */,
 				CADB6CA52B9F7AF200D9B38D /* Assets.xcassets in Resources */,
+				CA5792382BA311B900DEA549 /* BookGif.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
